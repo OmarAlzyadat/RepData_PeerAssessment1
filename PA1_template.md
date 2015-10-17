@@ -145,6 +145,8 @@ estimating the total number of steps per day.
    "weekday" and "weekend" indicating whether a given date is a
    weekday or weekend day.
    
+   
+   
 
 
 ```r
