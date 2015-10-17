@@ -5,6 +5,8 @@ output:
     keep_md: true
 ---
 
+
+
 ## Loading and preprocessing the data
 Download the data from the link provided [click here](https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2Factivity.zip) its zipped
 the data will be loaded into a data frame named "activity" it will be used to answer the question for this assignment
@@ -129,6 +131,3 @@ for (type in c("weekend", "weekday")) {
     plot(steps.type, type="l", main=type)
 }
 ```
-
-
-
