@@ -104,6 +104,7 @@ estimating the total number of steps per day.
 - Create a new factor variable in the dataset with two levels --
    "weekday" and "weekend" indicating whether a given date is a
    weekday or weekend day.
+   
 
 ```{r, cache=TRUE}
 daytype <- function(date) {
@@ -120,6 +121,7 @@ activity$daytype <- as.factor(sapply(activity$date, daytype))
    of the 5-minute interval (x-axis) and the average number of steps
    taken, averaged across all weekday days or weekend days
    (y-axis).
+   
 
 ```{r}
 par(mfrow=c(2,1))
